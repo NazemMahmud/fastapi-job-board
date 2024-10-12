@@ -1,0 +1,22 @@
+__pycache__
+*.pyc
+
+
+# .env  For others convenience added .env
+env
+.env
+
+sql_app.db
+test_db.db
+
+.pytest_cache
+htmlcov
+.coverage
+
+
+# IDE
+.vscode
+.idea
+
+# Virtual env folder
+.venv
