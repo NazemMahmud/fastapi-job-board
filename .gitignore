@@ -1,10 +1,12 @@
 __pycache__
+*/__pycache__
 *.pyc
 
 
 # .env  For others convenience added .env
 env
 .env
+.env.test
 
 sql_app.db
 test_db.db
