@@ -26,9 +26,17 @@ In this way, we don't have to install postgresql or pgadmin or dbeaver or other 
 Install all from `requirements.txt` file. \
 **NOTE:** Before installation, check `requirements.txt` file for further note based on OS
 
+1. If you want to install exact version I have used: `pip install -r requirements_exact.txt`
+2. Otherwise, `pip install -r requirements.txt`
+
+## Run Migration
+- Run database migration
 ```shell
-pip install -r requirements.txt
+alembic init alembic
 ```
+It will create
+- alembic directory
+- `alembic.ini` file
 
 ## Run Project
 In your terminal, run command:
@@ -51,3 +59,4 @@ uvicorn main:app --reload
 - `psycopg2`: PostgreSQL database adapter for the Python programming language.
 - `python-dotenv`: keep/track data from `.env` file
 - `supabase`: Make host and control PostgreSQl easier
+- `alembic`: used for database migration

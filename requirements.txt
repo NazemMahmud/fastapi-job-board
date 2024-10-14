@@ -1,9 +1,10 @@
-fastapi==0.115.2
-fastapi-cli==0.0.5
-uvicorn==0.31.1
-pydantic==2.9.2
-SQLAlchemy==2.0.35
-psycopg2==2.9.9 # In case you are not on a Windows machine, you should use psycopg2-binary package with its current stable version
-python-dotenv==1.0.1
-supabase==2.9.0
+fastapi
+fastapi-cli
+uvicorn
+pydantic
+SQLAlchemy
+psycopg2 # In case you are not on a Windows machine, you should use psycopg2-binary package with its current stable version
+python-dotenv
+supabase
+alembic
 
